@@ -1,7 +1,7 @@
 import React, {PropTypes, PureComponent} from 'react';
-import { render } from 'react-dom';
+
 import { Map, Marker, Popup, TileLayer } from 'react-leaflet';
-import {neos} from '@neos-project/neos-ui-decorators';
+7import {neos} from '@neos-project/neos-ui-decorators';
 
 @neos(globalRegistry => ({
     i18nRegistry: globalRegistry.get('i18n')
