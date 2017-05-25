@@ -1,0 +1,30 @@
+{
+  "name": "cvette/neos-ui-location-editor",
+  "type": "neos-plugin",
+  "description": "",
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Christian Vette",
+      "email": "neos@christianvette.de",
+      "homepage": "https://www.christianvette.de",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "neos/neos": "~3.0",
+    "neos/nodetypes": "~3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vette\\Location\\": "Classes"
+    }
+  },
+  "extra": {
+    "marketplace-account": "neos@christianvette.de",
+    "installer-name": "Vette.Location",
+    "neos": {
+      "package-key": "Vette.Location"
+    }
+  }
+}
